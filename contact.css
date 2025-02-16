@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color: #001832;
+}
+
+/* navbar css */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+}
+
+.portfolio{ 
+    display: flex;
+    margin: 0 50px;
+    color: white;
+}
+
+p {
+    color: #08bff8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0 300px 0 250px;
+    padding: 0;
+}
+
+ul button {
+    background-color: rgb(0, 24, 50);
+    box-shadow: rgb(0, 24, 50);
+    margin-left: 5px;
+    opacity: 0.8;
+}
+
+ul li {
+    margin: 0 15px;
+    color: white;
+}
+
+.line {
+    color: white;
+    margin: 0 5px;
+}
+
+.cv {
+    border: 1px solid  #E8489E ;
+    background-color: #e8489E;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+/* start the body css */
+
+.box {
+    display: flex;
+}
+.desciption {
+    position: relative;
+    left: 20%;
+    top: 130px;
+    width: 300px;
+}
+.contact-form {
+    position: relative;
+    left: 32%;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.contact-form button.submit-btn {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button.submit-btn:hover {
+    background-color: #004494;
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        width: 90%;
+    }
+}
+
+/* Start Footer */
+.footer{
+    position: relative;
+    top: 40px;
+}
+.underline {
+    border-top: 1px solid white;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.email , .phone{
+    color: white;
+    margin: 25px;
+}
